@@ -1,0 +1,22 @@
+class Test
+{
+public static void m1() throws
+{
+m2();
+}
+public static void m2() throws
+{
+  Thread.sleep(1000);
+}
+public static void main(String[] args) {
+     Interrupted exception
+    }
+}
+try
+{
+  m1();
+}
+Catch.(Interrupted exception obj)
+{
+  System.out.println(obj);
+}
